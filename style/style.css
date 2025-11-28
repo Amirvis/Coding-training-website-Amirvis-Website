@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #495057;
+}
+
+#arrow-btn {
+    opacity: 0;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    z-index: 10;
+}
+
+#arrow-btn.active{
+    opacity: 1;
+}
+
+#arrow-btn:hover {
+    background: transparent;
+    color: red;
+}
+
+#arrow-btn:active {
+    background: rgb(215, 44, 44);
+    color: #fff;
+}
+
+::selection {
+  background-color: #bb3e03;
+  color: #fff;
+}

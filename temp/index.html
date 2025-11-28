@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmirVis | Be a Programmer</title>
+    <link rel="icon" href="../assets/img/robot.svg">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- End Bootstrap CDN -->
+    <!-- Bootstrap icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- End Bootstrap icons CDN -->
+    <!-- my css -->
+    <link rel="stylesheet" href="../style/style.css">
+    <!-- End my css -->
+    <!-- Animate on Scroll Library CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <!-- End Animate on Scroll Library CDN -->
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md">
+        <div class="container-xxl">
+
+            <!-- navbar barnd -->
+            <a class="navbar-brand" href="#intro">
+                <span class="fw-bold text-danger">
+                    <i class="bi bi-robot"></i>
+                    AmirVis is Here!
+                </span>
+            </a>
+            <!-- End navbar barnd -->
+
+            <!-- toggle button for mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- End toggle button for mobile nav -->
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbar-main">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lang">Languages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Plans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item ms-2 d-none d-md-inline">
+                        <a class="btn btn-outline-danger" href="#reviews">Why Vis?</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End navbar links -->
+
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+    <!-- Arrow to top -->
+     <a href="#" id="arrow-btn" class="btn btn-outline-danger border-2 position-fixed bottom-0 end-0 rounded-pill m-4"><i class="bi bi-arrow-up fs-3"></i></a>
+    <!-- Arrow to top -->
+
+    <!-- main img and intro txt -->
+     <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start" data-aos="fade-right">
+                    <h1>
+                        <div class="display-2">Improve</div>
+                        <div class="display-5 text-muted">Your Coding Skills</div>
+                    </h1>
+                    <p class="text-muted lead my-4">coding is a lifestyle and the only way to know it, is to be a programmer; don't waste your time bro!</p>
+                    <a href="#pricing" class="btn btn-secondary btn-lg me-3">Be a Programmer</a>
+                    <!-- open sidebar / offcanvas -->
+                     <a href="#sidebar" class="d-block mt-4 me-md-5 mx-md-0 mx-5 text-danger text-decoration-none border-bottom pb-1 border-danger" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                        <i class="bi bi-bookmark-check"></i>
+                        About Vis <span class="text-muted lead">|</span> Who am I? <span class="text-muted lead">|</span> Media
+                     </a>
+                    <!-- End open sidebar / offcanvas -->
+                </div>
+                <div class="col-md-5 text-center d-none d-md-block mt-2" data-aos="fade-left">
+                    <span class="tt" data-bs-placement="right" title="Be like a wild Robot while coding </>">
+                        <img src="../assets/img/angry robot.png" class="img-fluid rounded-pill w-75" alt="Robot">
+                    </span>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- End main img and intro txt -->
+
+    <!-- cards of courses -->
+     <section id="pricing" class="bg-light mt-5 py-2">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Vis Plans</h2>
+                <p class="lead text-muted">Choose a Plan to suit you</p>
+            </div>
+            <div class="row my-5 d-flex align-items-center justify-content-center g-0" data-aos="fade-up" data-aos-delay="200">
+
+                <!-- first course -->
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body py-4 text-center">
+                            <h4 class="card-title">JavaScript</h4>
+                            <p class="lead card-subtitle">Code-Base tutorial</p>
+                            <p class="display-5 my-4 fw-bold" style="color: #9d0208;">$17.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-md-block">As a front-end developer, I will teach you the basics of JS, as well as the most important concepts, such as: functions, objects, arrays, and more.</p>
+                            <a class="btn btn-outline-danger btn-lg mt-3">Info & Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End first course -->
+
+                <!-- second course -->
+                <div class="col-9 col-lg-4">
+                    <div class="card border-danger border-2">
+                        <div class="card-header text-center text-danger">Most Popular</div>
+                        <div class="card-body text-center py-5">
+                            <h4 class="card-title">Python</h4>
+                            <p class="lead card-subtitle">Code-Base tutorial</p>
+                            <p class="display-4 my-4 text-danger fw-bold">$15.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-md-block">Python was the first programming language I learned and decided to teach it; I also worked on various Python backend projects (with Flask and Fast Api) for a while.</p>
+                            <a class="btn btn-danger btn-lg mt-3">Info & Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End second course -->
+
+                <!-- third course -->
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body py-4 text-center">
+                            <h4 class="card-title">C#</h4>
+                            <p class="lead card-subtitle">Code-Base tutorial</p>
+                            <p class="display-5 my-4 fw-bold" style="color: #9d0208;">$22.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-md-block">I guarantee you will buy one of the best code-centric C# tutorials, the result of months of my hard work.
+                            </p>
+                            <a class="btn btn-outline-danger btn-lg mt-3">Info & Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End third course -->
+
+            </div>
+        </div>
+     </section>
+    <!-- End cards of courses -->
+
+    <!-- languages -->
+     <section id="lang">
+        <div class="container-md">
+            <div class="text-center mt-4">
+                <h2>Programming Languages</h2>
+                <p class="lead text-muted">A quick glance at programming languages</p>
+            </div>
+            <div class="row my-3 g-5 justify-content-around align-items-center">
+
+                <!-- img of accordion part -->
+                <div class="col-6 col-lg-4" data-aos="fade-right">
+                    <img src="../assets/img/smiling robot.png" class="img-fluid rounded-pill" alt="Smiling Robot">
+                </div>
+                <!-- End img of accordion part -->
+
+                <!-- accordion -->
+                <div class="col-lg-6 col-8" data-aos="fade-left">
+                    <div class="accordion" id="chapters">
+
+                        <!-- item 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">JavaScript - Abbreviated as JS</button>
+                            </h2>
+                            <div id="chapter-1" class="accordion-collapse collapse show" data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>JS is a programming language and core technology of the Web, alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior.</p>
+                                    <p>Web browsers have a dedicated JavaScript engine that executes the client code. These engines are also utilized in some servers and a variety of apps. The most popular runtime system for non-browser usage is Node.js.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End item 1 -->
+
+                        <!-- item 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">Python - Easy but powerful</button>
+                            </h2>
+                            <div id="chapter-2" class="accordion-collapse collapse" data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</p>
+                                    <p>Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End item 2 -->
+
+                        <!-- item 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-3">C# - The coolest of the family</button>
+                            </h2>
+                            <div id="chapter-3" class="accordion-collapse collapse" data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>C# is a general-purpose high-level programming language supporting multiple paradigms. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End item 3 -->
+                         
+                    </div>
+                </div>
+                <!-- End accordion -->
+
+            </div>
+        </div>
+     </section>
+    <!-- End languages -->
+
+    <!-- reviews list -->
+     <section id="reviews" class="bg-light">
+        <div class="container-lg py-3">
+            <div class="text-center">
+                <h1><i class="bi bi-stars"></i> Reviews</h1>
+                <p class="lead">What Programmers have said about the tutorials</p>
+            </div>
+            <div class="row justify-content-center my-4" data-aos="fade-up">
+                <div class="col-lg-8">
+                    <div class="list-group mb-3">
+
+                        <!-- first review -->
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="text-danger bi bi-star-fill"></i>
+                                <i class="text-danger bi bi-star-fill"></i>
+                                <i class="text-danger bi bi-star-fill"></i>
+                                <i class="text-danger bi bi-star-fill"></i>
+                                <i class="text-danger bi bi-star-half"></i>
+                            </div>
+                            <h5 class="mb-1">A great code-based tutorial</h5>
+                            <p class="mb-1">One of the best code-centric tutorials I have seen to date. I wish my friend Amir continued success and thank him for this Website and his valuable courses, which have provided a great opportunity for beginners to learn programming.</p>
+                            <small>Review by Yasin</small>
+                        </div>
+                        <!-- End first review -->
+
+                        <!-- second review -->
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="text-danger bi bi-star-fill"></i>
+                                <i class="text-danger bi bi-star-fill"></i>
+                                <i class="text-danger bi bi-star-fill"></i>
+                                <i class="text-danger bi bi-star-fill"></i>
+                                <i class="text-danger bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">Good Job, Congratulations</h5>
+                            <p class="mb-1">You did a Good Job, Congratulations; I'm proud of you for creating such a great course.</p>
+                            <small>Review by Parsa</small>
+                        </div>
+                        <!-- End second review -->
+
+                        <!-- third review -->
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="text-danger bi bi-star-fill"></i>
+                                <i class="text-danger bi bi-star-fill"></i>
+                                <i class="text-danger bi bi-star-fill"></i>
+                                <i class="text-danger bi bi-star-fill"></i>
+                                <i class="text-danger bi bi-star"></i>
+                            </div>
+                            <h5 class="mb-1">Hoping for more courses</h5>
+                            <p class="mb-1">I hope you will continue to create more courses and continue to improve your skills and knowledge. wish you success and good luck.</p>
+                            <small>Review by Omid</small>
+                        </div>
+                        <!-- End third review -->
+
+                        <!-- fourth review -->
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="text-danger bi bi-star-fill"></i>
+                                <i class="text-danger bi bi-star-fill"></i>
+                                <i class="text-danger bi bi-star-fill"></i>
+                                <i class="text-danger bi bi-star-fill"></i>
+                                <i class="text-danger bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">Another great job from a great programmer</h5>
+                            <p class="mb-1">The first time you sent me your course to give you my opinion on it, I knew that you had created a masterpiece, as always; Another great job from a great programmer.</p>
+                            <small>Review by Ali</small>
+                        </div>
+                        <!-- End fourth review -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- End reviews list -->
+
+    <!-- contact form -->
+     <section id="contact">
+        <div class="container-lg mt-2">
+            <div class="text-center">
+                <h1>Get in touch</h1>
+                <p class="lead">Questions to ask? Fill out the form to contact me directly..</p>
+            </div>
+            <div class="row justify-content-center my-5" data-aos="fade-up">
+                <div class="col-lg-6">
+                    <form>
+
+                        <!-- name -->
+                        <label for="name" class="form-label">Name:</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="text-danger bi bi-person-fill"></i>
+                            </span>
+                            <input type="text" id="name" class="form-control" placeholder="e.g. Amir">
+                            <span class="input-group-text">
+                                <span class="tt" data-bs-placement="right" title="Self Explanatory">
+                                    <i class="bi bi-question-circle text-muted"></i>
+                                </span>
+                            </span>
+                        </div>
+                        <!-- End name -->
+
+                        <!-- email -->
+                        <label for="email" class="form-label">Email:</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="text-danger bi bi-envelope-fill"></i>
+                            </span>
+                            <input type="email" id="email" class="form-control" placeholder="e.g. name@example.com">
+                            <span class="input-group-text">
+                                <span class="tt" data-bs-placement="right" title="Enter an Email Address we can reply to">
+                                    <i class="bi bi-question-circle text-muted"></i>
+                                </span>
+                            </span>
+                        </div>
+                        <!-- End email -->
+
+                        <!-- subject Q -->
+                         <label for="subject" class="form-label">What is your question about?</label>
+                         <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="text-danger bi bi-chat-square-dots-fill"></i>
+                            </span>
+                            <select id="subject" class="form-select">
+                                <option value="pricing" selected>Pricing Query</option>
+                                <option value="assurance">Assurance Query</option>
+                                <option value="other">Other Query</option>
+                             </select>
+                        </div>
+                        <!-- End subject Q -->
+
+                        <!-- textarea -->
+                         <div class="form-floating mb-4 mt-4">
+                            <textarea id="query" class="form-control" style="height: 140px;" placeholder="query"></textarea>
+                            <label for="query">Your Query:</label>
+                         </div>
+                         <div class="text-center mb-4">
+                            <button type="button" class="btn btn-danger">Submit</button>
+                         </div>
+                        <!-- End textarea -->
+
+                    </form>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- End contact form -->
+
+    <!-- footer -->
+     <section class="bg-light">
+        <div class="container py-3">
+            <div class="text-center">
+                <h2>Stay in the Loop</h2>
+                <p class="lead">Get the News..</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="text-muted my-4">Stay up to date with the latest news and events happening around the website, courses, and the world of programming. As a small member of the programming community, I'm trying to share this great science with everyone as much as I can; I hope it's useful to you..</p>
+                    <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#reg-modal">Tutorial News</button>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- End footer -->
+
+    <!-- modal -->
+     <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Get the latest updates or new courses</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>To stay informed about the news, please enter your email in the box below. You will be notified of any updates or course additions. I hope you have had a good and useful time on my website..</p>
+                    <label for="modal-email" class="form-label">Email:</label>
+                    <input type="email" id="modal-email" class="form-control" placeholder="e.g. name@example.com">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger">Submit</button>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- End modal -->
+
+    <!-- side panel / offcanvas -->
+     <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-header">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-header">Who am I?</h5>
+            <button type="button" class="btn-close" aria-label="Close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Hi there, My name is Amir but also you can call me Vis; I'm a professional front-end developer who also knows about other programming languages. I'm 24 and have been programming and earning money from it for a few years now; on this website, I try to promote and teach this magnificent science as much as I can. follow me on social media too..</p>
+            <div class="dropdown mt-5">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="course-dropdown" data-bs-toggle="dropdown">Social Media</button>
+                <ul class="dropdown-menu" aria-labelledby="course-dropdown">
+                    <li><a href="https://www.instagram.com/amirzaco?igsh=MTBseDN3a290dHFmdA==" target="_blank" class="dropdown-item">Instagram <i class="bi bi-instagram"></i></a></li>
+                    <li><a href="https://t.me/favisjs" target="_blank" class="dropdown-item">Telegram <i class="bi bi-telegram"></i></a></li>
+                    <li><a href="https://github.com/Amirvis" target="_blank" class="dropdown-item">GitHub <i class="bi bi-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End side panel / offcanvas -->
+
+    <!-- my script -->
+    <script src="../scripts/script.js"></script>
+    <!-- End my script -->
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- End Bootstrap CDN -->
+    <!-- Animate on Scroll Library CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <!-- End Animate on Scroll Library CDN -->
+</body>
+</html>
